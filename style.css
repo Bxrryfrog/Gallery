@@ -1,0 +1,55 @@
+body {
+  Background: rgb(149, 255, 211);
+}
+
+.gallery, .label{
+  margin-left: 260px;
+}
+
+.gallery {
+    margin-top: 30px;
+
+}
+.picture {
+  height: 300px;
+    width: 712px;
+  display: none;
+  
+}
+
+.gallery img{
+  height: 340px;
+    width: 754px;
+box-shadow: 10px 5px 5px grey;
+  border-radius: 40px;
+
+
+ 
+}
+
+.label img{
+   height: 100px;
+width: 140px;
+  box-shadow: 10px 5px 5px grey;
+    border-radius: 10%;
+    margin-top: 70px;
+    margin-right: 10px;
+
+
+}
+.label img:hover {
+  transform: scale(1.05);
+  box-shadow: 10px 5px 5px grey;
+
+}
+
+input {
+  display:none;
+}
+
+#toggler1:checked ~ .picture1 { display: block; }
+
+#toggler2:checked ~ .picture2 { display: block; }
+#toggler3:checked ~ .picture3 { display: block; }
+#toggler4:checked ~ .picture4 { display: block; }
+#toggler5:checked ~ .picture5 { display: block; }
